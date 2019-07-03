@@ -4,6 +4,7 @@
 
 ## From PWA<br>to Web's Modern Capabilities
 
+Notes: Toutes bonne technos mérite son sigle
 ##==##
 
 <!-- .slide: class="flex-row" -->
@@ -25,20 +26,10 @@
 </p>
 
 Notes:
-
-Reliable - Load instantly and never show the downasaur, even in uncertain network conditions.
-Connectivity independent → Fonctionne en mode offline ou en mode lie-fi (Service-Worker)
-Fresh → Toujours à jour (Service-Worker)
-Safe → HTTPS
-Fast - Respond quickly to user interactions with silky smooth animations and no janky scrolling.
-Engaging - Feel like a natural app on the device, with an immersive user experience.
-Progressive → Fonctionne avec tout les utilisateurs quel que soit le navigateur
-Responsive → Fonctionne avec tout les types de tailles d’écran
-App-like → Intéraction comme avec une application, gestion de l’app-shell
-Discoverable → Manifest (W3C)
-Re-engageable → Utilisation des push notification (Service-Worker)
-Installable → Permettre l’utilisateur de garder l’application sur son bureau
-Linkable → Peut être tout simplement identifier par une URL
+Performante: repondre rapidement / s'afficher plus vite possible <br />
+Integrée : avec des capacité similaire app native<br />
+Fiable: chargement instantané / toujours dispo même offline<br />
+Engageante : des notifications par ex<br />
 
 ##==##
 
@@ -60,6 +51,13 @@ Linkable → Peut être tout simplement identifier par une URL
 <span class="center">Push<br>API</span>
 </p>
 
+Notes:
+Technos web utilisées <br/>
+Performante<br/>
+Integrée<br/>
+Fiable<br/>
+Engageante<br/>
+
 ##==##
 
 <!-- .slide: class="flex-row" -->
@@ -79,3 +77,10 @@ Linkable → Peut être tout simplement identifier par une URL
 <span class="center">Service<br>worker</span>
 <span class="center">Push Api<br><br>UX</span>
 </p>
+
+Notes:
+Technos web utilisées <br/>
+Performante<br/>
+Integrée<br/>
+Fiable<br/>
+Engageante<br/>

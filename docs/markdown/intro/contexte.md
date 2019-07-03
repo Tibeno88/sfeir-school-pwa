@@ -17,9 +17,9 @@
 <br>
 
 Notes:
-Invente le nom PWA, qu’il présente comme un nouveau type d’app, en opposition à l’hybrid / natif.
-
-exploiter les technologies modernes du Web pour offrir le confort d’une application native aux utilisateurs. Dit autrement, le rôle d’une PWA est de faire oublier à l’utilisateur qu’il est sur une ap- plication web, en lui offrant les mêmes ser- vices et les mêmes performances qu’une application native qu’il aurait téléchargée sur un AppStore classique
+PWA : nouveau type d’app, comparer au natif.<br />
+exploiter les techno modernes Web / offrir confort d’une app native aux utilisateurs.<br />
+Rôle PWA de faire oublier à l’utilisateur qu’il est sur une app web, en offrant les mêmes services / mêmes performances qu’une app native qu’il aurait téléchargée sur un store classique
 ##==##
 
 <!-- .slide: class="quote" -->
@@ -27,6 +27,10 @@ exploiter les technologies modernes du Web pour offrir le confort d’une applic
 <p class="quotation center">
 There is now another way. An **evolution** has taken place in browsers.
 </p>
+
+<br />
+Notes: Mais il y a maintenant un autre moyen. Une évolution s'est produite dans les navigateurs.<br />
+= nouvelles technos arrivées
 
 ##==##
 
@@ -36,6 +40,7 @@ There is now another way. An **evolution** has taken place in browsers.
 **Just websites** that took all the right vitamins.
 </p>
 
+Notes: Juste des sites web qui ont pris les bonnes vitamines
 ##==##
 
 <!-- .slide: class="quote" -->
@@ -44,6 +49,10 @@ There is now another way. An **evolution** has taken place in browsers.
 Sites [...] have to earn [some] right[s] over time as you use them more and more. They **progressively** become “apps”.
 </p>
 
+Notes:
+Les sites doivent gagner des droits avec le temps à mesure que vous les utilisez. Ils deviennent progressivement des «applications». <br />
+= demander a s'installer, demander d'envoyer des notifs, etc
+
 ##==##
 
 <!-- .slide: class="quote" -->
@@ -51,3 +60,7 @@ Sites [...] have to earn [some] right[s] over time as you use them more and more
 <p class="quotation">
 Thoughtful application design and construction will give early movers a **major advantage**.
 </p>
+
+Notes:
+Une conception et une construction réfléchies des applications donneront aux pionniers un ** avantage majeur **.<br />
+= ceux qui se lancent en premier auront avantages sur conccurence.

@@ -3,11 +3,9 @@
 # Définition
 
 Notes:
-Progressive Web Apps are really a response to changes we've seen on the web, an attitude to building great experiences.
-
-Making the most of the reach and capabilities of the platform — but also showing respect to users by being honest about real world constraints on connectivity and devices.
-
-But... What does this actually mean in practice?
+PWA arrivent dans la lignées des changements que nous avons vus sur le Web, avec but construction excellentes expériences pour l'utilisateurs.<br />
+Tirer meilleur parti possible des capacités de la portée que nos offres les plateformes mobile, <br />
+Mais… Qu'est-ce que cela signifie réellement dans la pratique?
 
 ##==##
 
@@ -17,11 +15,11 @@ But... What does this actually mean in practice?
 <span class="target-touch">La portée</span>
 
 Notes:
-One way to think of the difference between native and web apps is on the capability axis.
-Native apps start quickly when you tap the icon. Native apps tend to work offline, they can show notifications, sync in the background, and they have access to sensors like the camera and microphone.
-But, their reach is somewhat limited, requiring a different version for each platform.
-The web is safer, and it’s permission model is more respectful of your privacy, but without the same capabilities, it doesn’t matter how many people can access it.
 
+la différence entre les applications natives et Web est l’axe des capacités.<br />
+natives : démarrent rapidement lorsque vous appuyez sur l'icône / ont tendance à fonctionner hors ligne / afficher notifications /synchroniser en arrière-plan / accès capteurs caméra microphone gyroscope.<br />
+natives : portée limitée, version différente pour chaque plate-forme.<br />
+web: peu de capacité, mais touche beaucoup plus de monde
 ##==##
 
 ![center h-800](./assets/images/after_target.png)
@@ -30,10 +28,9 @@ The web is safer, and it’s permission model is more respectful of your privacy
 <span class="target-touch">La portée</span>
 
 Notes:
-We need to combine the capabilities and experience people are used to in native apps, with the reach of the web.
-We want the best of both worlds.
-A Progressive Web App is simply that, a great user experience that feels integrated and earns a place on your homescreen, without having to give up the reach of the web to get it.
-
+combiner capacités + expérience des utilisateurs avec app natives avec la portée du Web.<br />
+Nous voulons le meilleur des deux mondes.<br />
+PWA = excellente expérience utilisateur / intégrée / place sur écran d'accueil, sans abandonner la portée du Web pour l'obtenir.
 ##==##
 
 <!-- .slide: class="flex-row" -->
@@ -60,6 +57,8 @@ A Progressive Web App is simply that, a great user experience that feels integra
 <span class="center"><a href="https://developers.google.com/web/showcase/2017/twitter" target="_blank">Twitter Lite</a></span>
 </p>
 
+Notes: Site : Web fondamental / Google + bonne pratique pour le web aujourd'hui
+
 ##==##
 
 # Au delà du buzz word
@@ -67,9 +66,9 @@ A Progressive Web App is simply that, a great user experience that feels integra
 ![center w-1000](./assets/images/buzz_words.png)
 
 Notes:
-Souvent réduit à “une web app installable” -> fausse impression de nouvelle plateforme / type d’app
-
-De nouvelles technos pour un MEILLEUR web, sans oublier les best practices “historiques” !
+Tout un tas de pratiques pour faire du web aujourd'hui<br />
+Souvent réduit à “une web app installable”<br />
+juste technos plus ou moins recentes + best practices historique
 
 ##==##
 
@@ -84,11 +83,8 @@ Offrir progressivement d’avantage à l’utilisateur **si il le souhaite.**
 <!-- .element: class="center-big" -->
 
 Notes:
-Progressive Web Apps are really a response to changes we've seen on the web, an attitude to building great experiences.
-
-Making the most of the reach and capabilities of the platform — but also showing respect to users by being honest about real world constraints on connectivity and devices.
-
-But... What does this actually mean in practice?
+S'il le souhaite : proposition installer sur écran accueil / choix notification, etc. <br />
+Progressivement = Inutile mattraquer de popup en arrivant
 
 ##==##
 
@@ -103,10 +99,6 @@ Offrir progressivement la meilleure UX **pour chaque navigateur.**
 <!-- .element: class="center-big" -->
 
 Notes:
-Votre application s'enrichit grâce aux évolutions du web, mais fonctionne tout de même pleinement sur tous les browsers.
-
-Progressive Web Apps are really a response to changes we've seen on the web, an attitude to building great experiences.
-
-Making the most of the reach and capabilities of the platform — but also showing respect to users by being honest about real world constraints on connectivity and devices.
-
-But... What does this actually mean in practice?
+On va enrichir application grâce aux évolutions du web <br />
+si pas dispo : continue fonctionner sur tous les navigateurs / reste un site web classique <br/>
+Pas de big bang en dev, juste superposer des nouvelles features

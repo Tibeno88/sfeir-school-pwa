@@ -25,7 +25,7 @@ Notes: Un service worker est un proxy programmable côté client entre la webapp
 </div>
 
 Notes:
-Un service worker fonctionne dans le contexte d'un worker :
+Un service worker fonctionne dans le contexte d'un WorkerGlobalScope :
 Pas d’accès au DOM
 Asynchrone (Pas de localstorage ou de XHR synchrone)
 Thread différente du script principal donc non-bloquant

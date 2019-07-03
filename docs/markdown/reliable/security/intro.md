@@ -27,8 +27,9 @@
 </div>
 
 Notes:
-
-Et enfin, l'intégrité. Le navigateur et le serveur ont la garantie, sous HTTPS, que, lorsqu’ils envoient des données de l’un à l’autre, les données qu’ils envoient sont celles que l’autre partie reçoit. Ainsi, un intermédiaire du réseau ne peut ni modifier ni altérer les données envoyées. Seuls le navigateur et le serveur peuvent. Il s’agit donc des trois propriétés de sécurité fournies par HTTPS.
+Le navigateur / serveur garantie lorsque envoient données, données envoyées sont celles que l’autre partie reçoit.<br/>
+un intermédiaire du réseau ne peut ni modifier ni altérer les données envoyées. Seuls navigateur et serveur peuvent.<br />
+Il s’agit donc des trois propriétés de sécurité fournies par HTTPS.
 ##==##
 
 # Solutions
