@@ -5,8 +5,11 @@
 ![h-600](./assets/images/lifecycle-console.png)
 
 Notes:
-Montrer à quoi sert le "update on reload" & "unregister" & "update" & numéro de l'identifiant du service worker
-
+"update on reload" => au reload, force le SW à se MAJ et s'activer
+Unregister => supprimer le SW
+STOP + Start
+Bypass for network => ignore le SW et passe par réseau
+Offline: simule absence reseau
 ##==##
 
 <!-- .slide: class="with-code" -->
@@ -26,14 +29,18 @@ self.addEventListener('install', function(event) {
 
 <!-- .element: class="big-code" -->
 
-Notes: Un event est asynchrone, il se termine avant que la Promise ne soit fullfiled
-Se termine avant que l'on ai fini les actions a faire
-Fixé avec waitUntil, qui va attendre la résolution de la dernière promise a l'interieur avant de terminer l'event
+Notes: Un event est asynchrone <br />
+Normalement, Se termine avant que l'on ai fini les actions a faire<br/>
+Fixé avec waitUntil, attendre la résolution de la dernière promise a l'interieur avant de terminer l'event
 ##==##
 
 # Installation
 
 ![center h-600](./assets/images/sw_life_cycle_installing.png)
+
+Notes:
+Passe dedans 1 seule fois<br/>
+SkipWaiting => aller directement à l'étape d'installation / sans attendre que le client soit fermé
 
 ##==##
 
@@ -61,13 +68,10 @@ self.addEventListener('install', function(event) {
 <!-- .element: class="center" -->
 
 Notes:
-forces the waiting service worker to become the active service worker.
-
-The claim() method of the of the Clients interface allows an active Service Worker to set itself as the active worker for a client page when the worker and the page are in the same scope. This triggers an oncontrollerchange event on any client pages within the Service Worker's scope.
-
-**DEMO**: u should see a picture of a cow without having to navigate away. Like clients.claim() it's a race, so you'll only see the cow if the new service worker fetches, installs and activates before the page tries to load the image.
-
-**Caution**: skipWaiting() means that your new service worker is likely controlling pages that were loaded with an older version. This means some of your page's fetches will have been handled by your old service worker, but your new service worker will be handling subsequent fetches. If this might break things, don't use skipWaiting().
+Force le SW a devenir le SW actif<br />
+skipWaiting() signifie aussi que le nouveau SW passe en étape d'activation<br />
+Peut y avoir des changement de comportement + bugs<br />
+A utiliser surtout si casse rien
 
 ##==##
 
@@ -94,6 +98,6 @@ self.addEventListener('activate', function(event) {
 <br>
 
 Notes:
-forces the waiting service worker to become the active service worker.
+self.clients.claim() force le SW a devenir le SW actif<br />
 
-The claim() method of the of the Clients interface allows an active Service Worker to set itself as the active worker for a client page when the worker and the page are in the same scope. This triggers an oncontrollerchange event on any client pages within the Service Worker's scope.
+- controle tous clients ouvert sans reload

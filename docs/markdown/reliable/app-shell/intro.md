@@ -59,6 +59,11 @@ Demandez vous :
 
 ![center h-700](./assets/images/sw_install.png)
 
+Notes: event install<br />
+en même temps passe activation, appel network pour fichier app shell et mise en cache<br />
+pas besoin attendrepour activating<br />
+App shell dispo prochain chargement
+
 ##==##
 
 <!-- .slide: class="with-code" -->

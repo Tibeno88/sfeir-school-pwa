@@ -67,6 +67,8 @@ https://developers.google.com/web/updates/2014/11/Support-for-installable-web-ap
 }
 ```
 
+Notes: fichier json
+
 ##--##
 
 ![center h-600](./assets/images/black_phone.png)

@@ -4,14 +4,11 @@
 
 ## **PWA 200**
 
-##==##
+Notes:
+ensemble 2 jours / Parler PWA / qu'est ce que c'est, comment ça marche; comment implementer demain sur vos projets<br/>
+formation interactive = voir concept + exercices<br/>
 
-<!-- .slide: class="school-presentation" -->
-
-<div class="wifi">
-    <span class="key">wifi:</span><span>SSID</span><br>
-    <span class="key">mdp:</span><span>PWD_WIFI</span>
-</div>
+Programme dense / pas hésitez interompre / poser questions<br/>
 
 ##==##
 

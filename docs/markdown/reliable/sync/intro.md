@@ -14,6 +14,12 @@
 ![h-300](./assets/images/wifi_no-wifi.png)
 Connexion toujours disponible ?
 
+Notes:
+On adore internet => vidéo de chats qui ont peur des concombres<br />
+mais pas toujours devant un écran<br />
+
+offline ? interessant d'envoyer quand reseau revient
+
 ##==##
 
 <!-- .slide: class="with-code" -->

@@ -17,7 +17,7 @@
 <br>
 
 Notes:
-PWA : nouveau type d’app, comparer au natif.<br />
+PWA : énumerer caractacteristique bonne appli web, comparer au natif.<br />
 exploiter les techno modernes Web / offrir confort d’une app native aux utilisateurs.<br />
 Rôle PWA de faire oublier à l’utilisateur qu’il est sur une app web, en offrant les mêmes services / mêmes performances qu’une app native qu’il aurait téléchargée sur un store classique
 ##==##

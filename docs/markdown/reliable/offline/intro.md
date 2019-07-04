@@ -24,3 +24,4 @@
 
 Notes:
 Cache-First
+Pour éviter d'avoir le dinosaure

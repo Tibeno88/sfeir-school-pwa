@@ -242,7 +242,7 @@ self.addEventListener('fetch', event => {
 
 ##==##
 
-# Stratégies de cache : Greneric-Fallback
+# Stratégies de cache : Generic-Fallback
 
 ![center h-800](./assets/images/cache-strategy-generic-fallback.png)
 
@@ -253,7 +253,7 @@ Si il existe une version en cache, on l'utilise, puis on telecharge la nouvelle 
 
 <!-- .slide: class="with-code" -->
 
-# Greneric-Fallback : example
+# Generic-Fallback : example
 
 service-worker.js
 
@@ -269,3 +269,9 @@ self.addEventListener('fetch', event => {
 ```
 
 <!-- .element: class="big-code" -->
+
+##==##
+
+# Sinon ...on a Workbox
+
+![center h-700](./assets/images/workbox.png)

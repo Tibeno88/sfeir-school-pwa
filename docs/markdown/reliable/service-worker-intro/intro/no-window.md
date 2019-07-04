@@ -13,4 +13,5 @@ self: récupérer la référence
 <br>
 
 Notes:
-à reprendre : détailler un peu mieux sur le slide et les notes le lien entre https://developer.mozilla.org/fr/docs/Web/API/WorkerGlobalScope, https://developer.mozilla.org/fr/docs/Web/API/ServiceWorkerGlobalScope et https://developer.mozilla.org/fr/docs/Web/API/Window, en parlant (rapidement mais de manière claire) des interface impliquées - peut être une piste pour reprendre le déroulement des slides suivants (ex: EventTarget -> Events Handling)
+Attention, dans le contexte de navigation => window<br />
+SW = self retourne le scope du context des SW

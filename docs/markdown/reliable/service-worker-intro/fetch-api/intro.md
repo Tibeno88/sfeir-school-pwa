@@ -2,12 +2,22 @@
 
 ![center](./assets/images/fetch_api.svg)
 
+Notes:
+L'api fetch interface javascript pour les requetes xhr<br />
+peut faire du Get, du post, passer des params<br />
+lors d'un fetch, va passer par le service worker = proxy<br />
+si event fetch<br />
+puis reseau
+
 ##==##
 
 # Retourner une réponse personnalisée
 
 ![center](./assets/images/fetch_custom_response.svg)
 
+Notes:
+Le retour intercepter par SW
+utise un respondWith pour retourner réponse, peut être après traitement
 ##==##
 
 <!-- .slide: class="with-code" -->
